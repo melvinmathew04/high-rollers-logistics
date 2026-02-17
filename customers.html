@@ -2,124 +2,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customers - High Rollers Logistics LLC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- HEADER -->
-    <header>
-        <div class="header-container">
-            <div class="logo-container">
-                <img src="images/LOGO.PNG" alt="High Rollers Logistics LLC" class="logo">
-            </div>
-            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-            <nav id="nav-menu">
-                <a href="index.html">Home</a>
-                <a href="drivers.html">Drivers</a>
-                <a href="customers.html" class="active">Customers</a>
-                <a href="about.html">About Us</a>
-                <a href="safety.html">Safety</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+
+<header>
+    <div class="header-container">
+        <div class="logo-container">
+            <img src="images/LOGO.PNG" alt="High Rollers Logistics LLC" class="logo">
         </div>
-    </header>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav id="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="drivers.html">Drivers</a>
+            <a href="customers.html" class="active">Customers</a>
+            <a href="about.html">About Us</a>
+            <a href="safety.html">Safety</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
 
-    <!-- CUSTOMERS PAGE CONTENT -->
-    <section class="hero" style="padding: 4rem 2rem;">
-        <h1>Shipping & Logistics Solutions</h1>
-        <p>Reliable freight transportation for businesses across the nation</p>
-    </section>
+<section class="hero" style="padding: 4rem 2rem;">
+    <h1>Shipping & Logistics Solutions</h1>
+    <p>Reliable freight transportation across the nation</p>
+</section>
 
-    <div class="container">
-        <div class="about-content">
-            <h2>Partner With High Rollers Logistics</h2>
-            <p>When you choose High Rollers Logistics as your freight partner, you're choosing a company dedicated to delivering your cargo safely, on time, and with the professionalism you deserve.</p>
-            
-            <h3 style="color: #1e3a5f; margin-top: 2rem; margin-bottom: 1rem;">Our Services Include:</h3>
-            <ul style="margin-left: 2rem; margin-bottom: 2rem;">
-                <li>Full Truckload (FTL) Services</li>
-                <li>Dedicated Routes</li>
-                <li>Temperature-Controlled Transport</li>
-                <li>Expedited Shipping</li>
-                <li>Real-Time Load Tracking</li>
-                <li>Professional Communication</li>
-                <li>Flexible Scheduling</li>
-            </ul>
+<div class="container">
 
-            <div style="text-align: center; margin: 3rem 0;">
-                <a href="#customer-contact" class="btn btn-secondary">Get a Quote</a>
-            </div>
-        </div>
-
-        <div id="customer-contact" style="margin-top: 3rem; background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-            <h2 style="color: #1e3a5f; margin-bottom: 2rem;">Request Shipping Services</h2>
-            <div class="success-message" id="customer-success">Thank you for your inquiry! Our team will contact you shortly.</div>
-            <form onsubmit="submitCustomerForm(event)">
-                <div class="form-group">
-                    <label>Company Name *</label>
-                    <input type="text" required>
-                </div>
-                <div class="form-group">
-                    <label>Contact Name *</label>
-                    <input type="text" required>
-                </div>
-                <div class="form-group">
-                    <label>Email *</label>
-                    <input type="email" required>
-                </div>
-                <div class="form-group">
-                    <label>Phone *</label>
-                    <input type="tel" required>
-                </div>
-                <div class="form-group">
-                    <label>Origin Location</label>
-                    <input type="text" placeholder="City, State">
-                </div>
-                <div class="form-group">
-                    <label>Destination Location</label>
-                    <input type="text" placeholder="City, State">
-                </div>
-                <div class="form-group">
-                    <label>Freight Details</label>
-                    <textarea placeholder="Tell us about your shipping needs - type of freight, weight, frequency, timeline, etc."></textarea>
-                </div>
-                <button type="submit" class="btn btn-secondary">Submit Request</button>
-            </form>
-            <p style="margin-top: 1rem; font-size: 0.9rem; color: #666;">Customer inquiries will be sent to our operations team</p>
-        </div>
+    <div class="about-content">
+        <h2>Partner With High Rollers Logistics</h2>
+        <p>
+            For freight quotes and logistics services, contact our operations team directly.
+        </p>
     </div>
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>High Rollers Logistics LLC</h3>
-                <p>Professional trucking and logistics services you can trust.</p>
-                <p style="margin-top: 1rem;">Safety • Reliability • Excellence</p>
-            </div>
-            <div class="footer-section">
-                <h3>Quick Links</h3>
-                <a href="index.html">Home</a>
-                <a href="drivers.html">Careers</a>
-                <a href="customers.html">Services</a>
-                <a href="about.html">About Us</a>
-                <a href="safety.html">Safety</a>
-            </div>
-            <div class="footer-section">
-                <h3>Contact</h3>
-                <a href="mailto:info@highrollerslllc.com">info@highrollerslllc.com</a>
-                <a href="mailto:drivers@highrollerslllc.com">drivers@highrollerslllc.com</a>
-                <a href="mailto:contact@highrollerslllc.com">contact@highrollerslllc.com</a>
-                <p>Phone Number: 865-936-2231</p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 High Rollers Logistics LLC. All rights reserved.</p>
-        </div>
-    </footer>
+    <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center; margin-top: 3rem;">
 
-    <script src="script.js"></script>
+        <h2 style="color: #1e3a5f;">Request a Shipping Quote</h2>
+
+        <p style="margin: 1.5rem 0;">
+            Email our operations team with your shipment details:
+        </p>
+
+        <p style="font-size: 1.3rem; font-weight: bold;">
+            contact@highrollerslllc.com
+        </p>
+
+        <p style="margin-top: 1rem;">
+            Or call us directly:
+        </p>
+
+        <p style="font-size: 1.3rem; font-weight: bold;">
+            865-936-2231
+        </p>
+
+        <div style="margin-top: 2rem;">
+            <a href="mailto:contact@highrollerslllc.com" class="btn btn-secondary" style="margin-right: 1rem;">Request Quote</a>
+            <a href="tel:8659362231" class="btn btn-primary">Call Operations</a>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>High Rollers Logistics LLC</h3>
+            <p>Professional trucking and logistics services you can trust.</p>
+            <p>Safety • Reliability • Excellence</p>
+        </div>
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <a href="mailto:info@highrollerslllc.com">info@highrollerslllc.com</a>
+            <a href="mailto:drivers@highrollerslllc.com">drivers@highrollerslllc.com</a>
+            <a href="mailto:contact@highrollerslllc.com">contact@highrollerslllc.com</a>
+            <p>Phone Number: 865-936-2231</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
 
